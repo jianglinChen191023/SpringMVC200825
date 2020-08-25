@@ -48,7 +48,7 @@
         	http://www.springframework.org/schema/context
         	http://www.springframework.org/schema/context/spring-context-4.1.xsd
             ">
-        
+            
             <!-- 扫描组件, 并加上@Controller注解的类作为 springMVC 的控制层 -->
             <!-- springMVC中可以将一个 POJO 来作为一个控制层, 而不需要它实现任何的接口和继承任何的类 -->
             <context:component-scan base-package="com"/>
